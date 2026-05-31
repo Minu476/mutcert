@@ -1,0 +1,5 @@
+S669 dataset — manual download required
+========================================
+Secondary ΔΔG validation benchmark.
+Obtain from: ThermoMutDB or paper supplementary of ΔΔG benchmarking studies.
+Save as: s669.csv in this directory.

@@ -1,0 +1,12 @@
+S2648 dataset — manual download required
+=========================================
+Source: Potapov et al. 2009, Protein Eng. Des. Sel. 22(9):553-560
+DOI: 10.1093/protein/gzp030
+
+Obtain the CSV from one of:
+  1. Paper supplementary materials (Table S1)
+  2. ThermoMutDB download page: https://biosig.lab.uq.edu.au/thermomutdb/
+  3. Contact corresponding author
+
+Expected columns: pdb_id, chain, wildtype, position, mutant, ddg
+Save as: s2648.csv in this directory.

@@ -1,0 +1,59 @@
+services:
+
+  # ── Neo4j Enterprise (multi-database required for 3 protein families + run-registry) ──
+  neo4j:
+    image: neo4j:5-enterprise
+    container_name: mutcert-neo4j
+    environment:
+      NEO4J_AUTH: "neo4j/${NEO4J_PASSWORD:-mutcert}"
+      NEO4J_ACCEPT_LICENSE_AGREEMENT: "yes"
+      NEO4J_server_memory_heap_initial__size: "512m"
+      NEO4J_server_memory_heap_max__size: "2G"
+      NEO4J_server_memory_pagecache__size: "1G"
+    ports:
+      - "7474:7474"   # Neo4j Browser
+      - "7687:7687"   # Bolt
+    volumes:
+      - neo4j-data:/data
+      - neo4j-logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 20
+      start_period: 30s
+
+  # ── One-shot init: builds protein graphs + imports mutations ────────────────
+  # Run this once before validate-all:
+  #   docker compose run --rm mutcert-init
+  mutcert-init:
+    build: .
+    container_name: mutcert-init
+    environment:
+      NEO4J_URI:      bolt://neo4j:7687
+      NEO4J_USERNAME: neo4j
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-mutcert}
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    volumes:
+      - ./docker/init.sh:/init.sh:ro
+    entrypoint: ["/bin/sh", "/init.sh"]
+    profiles: ["init"]   # only runs when explicitly called
+
+  # ── Interactive mutcert CLI ─────────────────────────────────────────────────
+  mutcert:
+    build: .
+    environment:
+      NEO4J_URI:      bolt://neo4j:7687
+      NEO4J_USERNAME: neo4j
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-mutcert}
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    volumes:
+      - ./data/output:/app/data/output   # HTML reports land here on the host
+
+volumes:
+  neo4j-data:
+  neo4j-logs:

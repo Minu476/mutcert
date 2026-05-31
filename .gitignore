@@ -1,0 +1,22 @@
+# Build outputs
+src/*/bin/
+src/*/obj/
+
+# Generated data outputs (HTML reports, logs)
+data/*.html
+data/*.log
+data/output/
+
+# Environment — never commit real credentials
+.env
+
+# macOS
+.DS_Store
+
+# JetBrains / VS Code
+.idea/
+.vscode/
+
+# NuGet
+*.user
+packages/

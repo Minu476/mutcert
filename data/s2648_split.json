@@ -1,0 +1,4452 @@
+{
+  "t4-lysozyme": {
+    "Train": [
+      {
+        "MutationId": "MUT_P00720_A_106_ALA",
+        "ResidueId": "P00720_A_106",
+        "WildType3": "MET",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_CYS",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": 1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_94_ALA",
+        "ResidueId": "P00720_A_94",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_29_ALA",
+        "ResidueId": "P00720_A_29",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_6_ALA",
+        "ResidueId": "P00720_A_6",
+        "WildType3": "MET",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_129_LEU",
+        "ResidueId": "P00720_A_129",
+        "WildType3": "ALA",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_28_ALA",
+        "ResidueId": "P00720_A_28",
+        "WildType3": "GLY",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_30_PHE",
+        "ResidueId": "P00720_A_30",
+        "WildType3": "GLY",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_6_LEU",
+        "ResidueId": "P00720_A_6",
+        "WildType3": "MET",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_103_ALA",
+        "ResidueId": "P00720_A_103",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.91,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_SER",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_ARG",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": 1.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_87_MET",
+        "ResidueId": "P00720_A_87",
+        "WildType3": "VAL",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -2.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_SER",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_87_THR",
+        "ResidueId": "P00720_A_87",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -1.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_117_VAL",
+        "ResidueId": "P00720_A_117",
+        "WildType3": "SER",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_67_ALA",
+        "ResidueId": "P00720_A_67",
+        "WildType3": "PHE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_84_MET",
+        "ResidueId": "P00720_A_84",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_103_MET",
+        "ResidueId": "P00720_A_103",
+        "WildType3": "VAL",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_LEU",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 1.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_VAL",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.4,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_132_PHE",
+        "ResidueId": "P00720_A_132",
+        "WildType3": "ASN",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": 1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_PHE",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -1.49,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_ILE",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_GLU",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -1.77,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_102_ALA",
+        "ResidueId": "P00720_A_102",
+        "WildType3": "MET",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_SER",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_CYS",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_THR",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_11_ALA",
+        "ResidueId": "P00720_A_11",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 1.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_ILE",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -2.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_ASP",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -2.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_THR",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.45,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_59_VAL",
+        "ResidueId": "P00720_A_59",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_ALA",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_CYS",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -2.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_153_VAL",
+        "ResidueId": "P00720_A_153",
+        "WildType3": "PHE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_111_PHE",
+        "ResidueId": "P00720_A_111",
+        "WildType3": "VAL",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -1.43,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_132_ILE",
+        "ResidueId": "P00720_A_132",
+        "WildType3": "ASN",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": 1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_72_PRO",
+        "ResidueId": "P00720_A_72",
+        "WildType3": "ASP",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -2.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_51_ASP",
+        "ResidueId": "P00720_A_51",
+        "WildType3": "GLY",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -2.63,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_46_ALA",
+        "ResidueId": "P00720_A_46",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_78_MET",
+        "ResidueId": "P00720_A_78",
+        "WildType3": "ILE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_117_PHE",
+        "ResidueId": "P00720_A_117",
+        "WildType3": "SER",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": 1.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_101_ALA",
+        "ResidueId": "P00720_A_101",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_GLY",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_152_SER",
+        "ResidueId": "P00720_A_152",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_GLU",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_SER",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_129_MET",
+        "ResidueId": "P00720_A_129",
+        "WildType3": "ALA",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_MET",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_33_MET",
+        "ResidueId": "P00720_A_33",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_CYS",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -2.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_11_MET",
+        "ResidueId": "P00720_A_11",
+        "WildType3": "GLU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": 1.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_ASP",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -2.39,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_VAL",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_THR",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_CYS",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_78_ALA",
+        "ResidueId": "P00720_A_78",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_MET",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -2.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_66_MET",
+        "ResidueId": "P00720_A_66",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_17_ALA",
+        "ResidueId": "P00720_A_17",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_87_ALA",
+        "ResidueId": "P00720_A_87",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_90_HIS",
+        "ResidueId": "P00720_A_90",
+        "WildType3": "SER",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_59_GLY",
+        "ResidueId": "P00720_A_59",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_71_ALA",
+        "ResidueId": "P00720_A_71",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_75_THR",
+        "ResidueId": "P00720_A_75",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_TYR",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -2.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_86_GLY",
+        "ResidueId": "P00720_A_86",
+        "WildType3": "PRO",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.91,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_PRO",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -2.96,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_129_TRP",
+        "ResidueId": "P00720_A_129",
+        "WildType3": "ALA",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": -2.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_102_VAL",
+        "ResidueId": "P00720_A_102",
+        "WildType3": "MET",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_ASN",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": 1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_ALA",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.87,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_ASP",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -1.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_152_ALA",
+        "ResidueId": "P00720_A_152",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_ASN",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_130_SER",
+        "ResidueId": "P00720_A_130",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_17_MET",
+        "ResidueId": "P00720_A_17",
+        "WildType3": "ILE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -2.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_132_MET",
+        "ResidueId": "P00720_A_132",
+        "WildType3": "ASN",
+        "MutantType3": "MET",
+        "ExperimentalDdg": 1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_99_ILE",
+        "ResidueId": "P00720_A_99",
+        "WildType3": "LEU",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_117_ALA",
+        "ResidueId": "P00720_A_117",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 1.27,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_7_ALA",
+        "ResidueId": "P00720_A_7",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_138_TYR",
+        "ResidueId": "P00720_A_138",
+        "WildType3": "TRP",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -1.71,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_HIS",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_VAL",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 1.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_99_VAL",
+        "ResidueId": "P00720_A_99",
+        "WildType3": "LEU",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_ALA",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_20_THR",
+        "ResidueId": "P00720_A_20",
+        "WildType3": "ASP",
+        "MutantType3": "THR",
+        "ExperimentalDdg": 0.9,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_144_ASP",
+        "ResidueId": "P00720_A_144",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_59_SER",
+        "ResidueId": "P00720_A_59",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.7,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_111_ILE",
+        "ResidueId": "P00720_A_111",
+        "WildType3": "VAL",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.69,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_41_VAL",
+        "ResidueId": "P00720_A_41",
+        "WildType3": "ALA",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 0.42,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_ALA",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.44,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_92_ASN",
+        "ResidueId": "P00720_A_92",
+        "WildType3": "ASP",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_152_CYS",
+        "ResidueId": "P00720_A_152",
+        "WildType3": "THR",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_152_VAL",
+        "ResidueId": "P00720_A_152",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_ASP",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_115_GLU",
+        "ResidueId": "P00720_A_115",
+        "WildType3": "THR",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_60_HIS",
+        "ResidueId": "P00720_A_60",
+        "WildType3": "LYS",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -0.8,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_11_ASN",
+        "ResidueId": "P00720_A_11",
+        "WildType3": "GLU",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_105_GLU",
+        "ResidueId": "P00720_A_105",
+        "WildType3": "GLN",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_144_GLU",
+        "ResidueId": "P00720_A_144",
+        "WildType3": "ASN",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_26_SER",
+        "ResidueId": "P00720_A_26",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": 0.57,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_122_ALA",
+        "ResidueId": "P00720_A_122",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.24,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_11_HIS",
+        "ResidueId": "P00720_A_11",
+        "WildType3": "GLU",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_SER",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.66,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_GLY",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.68,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_78_VAL",
+        "ResidueId": "P00720_A_78",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.8,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_41_SER",
+        "ResidueId": "P00720_A_41",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.6,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_20_SER",
+        "ResidueId": "P00720_A_20",
+        "WildType3": "ASP",
+        "MutantType3": "SER",
+        "ExperimentalDdg": 0.7,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_THR",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_54_THR",
+        "ResidueId": "P00720_A_54",
+        "WildType3": "CYS",
+        "MutantType3": "THR",
+        "ExperimentalDdg": 0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_PHE",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": 0.06,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_37_ALA",
+        "ResidueId": "P00720_A_37",
+        "WildType3": "PRO",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_111_MET",
+        "ResidueId": "P00720_A_111",
+        "WildType3": "VAL",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.7,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_106_LEU",
+        "ResidueId": "P00720_A_106",
+        "WildType3": "MET",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_153_ILE",
+        "ResidueId": "P00720_A_153",
+        "WildType3": "PHE",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_152_ILE",
+        "ResidueId": "P00720_A_152",
+        "WildType3": "THR",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_45_ALA",
+        "ResidueId": "P00720_A_45",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.55,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_40_ALA",
+        "ResidueId": "P00720_A_40",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.43,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_HIS",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": 0.04,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_55_GLY",
+        "ResidueId": "P00720_A_55",
+        "WildType3": "ASN",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_144_HIS",
+        "ResidueId": "P00720_A_144",
+        "WildType3": "ASN",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -0.6,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_LYS",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_43_ALA",
+        "ResidueId": "P00720_A_43",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.96,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_100_VAL",
+        "ResidueId": "P00720_A_100",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_TRP",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": 0.05,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_119_GLU",
+        "ResidueId": "P00720_A_119",
+        "WildType3": "ARG",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_MET",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "MET",
+        "ExperimentalDdg": 0.33,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_82_PRO",
+        "ResidueId": "P00720_A_82",
+        "WildType3": "ALA",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_87_ILE",
+        "ResidueId": "P00720_A_87",
+        "WildType3": "VAL",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_VAL",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.6,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_ALA",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.9,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_38_ALA",
+        "ResidueId": "P00720_A_38",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.77,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_83_HIS",
+        "ResidueId": "P00720_A_83",
+        "WildType3": "LYS",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_38_ASP",
+        "ResidueId": "P00720_A_38",
+        "WildType3": "SER",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_49_SER",
+        "ResidueId": "P00720_A_49",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_ILE",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": 0.31,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_59_ASP",
+        "ResidueId": "P00720_A_59",
+        "WildType3": "THR",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.9,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_118_MET",
+        "ResidueId": "P00720_A_118",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.7,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_113_GLU",
+        "ResidueId": "P00720_A_113",
+        "WildType3": "GLY",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_120_TYR",
+        "ResidueId": "P00720_A_120",
+        "WildType3": "MET",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_41_ASP",
+        "ResidueId": "P00720_A_41",
+        "WildType3": "ALA",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.29,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_120_ALA",
+        "ResidueId": "P00720_A_120",
+        "WildType3": "MET",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_116_ALA",
+        "ResidueId": "P00720_A_116",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.17,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_CYS",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_48_ALA",
+        "ResidueId": "P00720_A_48",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.32,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_93_THR",
+        "ResidueId": "P00720_A_93",
+        "WildType3": "ALA",
+        "MutantType3": "THR",
+        "ExperimentalDdg": 0.06,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_85_ALA",
+        "ResidueId": "P00720_A_85",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_151_SER",
+        "ResidueId": "P00720_A_151",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": 0.39,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_GLU",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_106_ILE",
+        "ResidueId": "P00720_A_106",
+        "WildType3": "MET",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_153_MET",
+        "ResidueId": "P00720_A_153",
+        "WildType3": "PHE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.6,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_128_ALA",
+        "ResidueId": "P00720_A_128",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.16,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_121_MET",
+        "ResidueId": "P00720_A_121",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.8,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_GLN",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": 0.27,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_120_LEU",
+        "ResidueId": "P00720_A_120",
+        "WildType3": "MET",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_73_SER",
+        "ResidueId": "P00720_A_73",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_153_LEU",
+        "ResidueId": "P00720_A_153",
+        "WildType3": "PHE",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 0.35,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_135_GLU",
+        "ResidueId": "P00720_A_135",
+        "WildType3": "LYS",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_93_PRO",
+        "ResidueId": "P00720_A_93",
+        "WildType3": "ALA",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_14_LYS",
+        "ResidueId": "P00720_A_14",
+        "WildType3": "ARG",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -0.03,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_MET",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_104_MET",
+        "ResidueId": "P00720_A_104",
+        "WildType3": "PHE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_99_PHE",
+        "ResidueId": "P00720_A_99",
+        "WildType3": "LEU",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_119_ALA",
+        "ResidueId": "P00720_A_119",
+        "WildType3": "ARG",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.18,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_47_ALA",
+        "ResidueId": "P00720_A_47",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.28,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_40_ASP",
+        "ResidueId": "P00720_A_40",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.44,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_82_SER",
+        "ResidueId": "P00720_A_82",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_154_GLU",
+        "ResidueId": "P00720_A_154",
+        "WildType3": "ARG",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_99_MET",
+        "ResidueId": "P00720_A_99",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.6,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_147_GLU",
+        "ResidueId": "P00720_A_147",
+        "WildType3": "LYS",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_GLU",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_59_ASN",
+        "ResidueId": "P00720_A_59",
+        "WildType3": "THR",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.6,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_GLN",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_VAL",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_60_PRO",
+        "ResidueId": "P00720_A_60",
+        "WildType3": "LYS",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_105_ALA",
+        "ResidueId": "P00720_A_105",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.9,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_22_LYS",
+        "ResidueId": "P00720_A_22",
+        "WildType3": "GLU",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": 0.57,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_77_ALA",
+        "ResidueId": "P00720_A_77",
+        "WildType3": "GLY",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_115_ALA",
+        "ResidueId": "P00720_A_115",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.14,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_133_MET",
+        "ResidueId": "P00720_A_133",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_LEU",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 0.39,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_116_ASP",
+        "ResidueId": "P00720_A_116",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_LYS",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": 0,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_LEU",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 0.85,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_LEU",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": 0.09,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_129_VAL",
+        "ResidueId": "P00720_A_129",
+        "WildType3": "ALA",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.8,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_50_MET",
+        "ResidueId": "P00720_A_50",
+        "WildType3": "ILE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.4,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_ARG",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": 0.24,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_ASN",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.14,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_91_MET",
+        "ResidueId": "P00720_A_91",
+        "WildType3": "LEU",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.8,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_30_ALA",
+        "ResidueId": "P00720_A_30",
+        "WildType3": "GLY",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_134_SER",
+        "ResidueId": "P00720_A_134",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_119_MET",
+        "ResidueId": "P00720_A_119",
+        "WildType3": "ARG",
+        "MutantType3": "MET",
+        "ExperimentalDdg": 0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_THR",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "THR",
+        "ExperimentalDdg": 0.01,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_109_ASP",
+        "ResidueId": "P00720_A_109",
+        "WildType3": "THR",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_GLY",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -4.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_126_ARG",
+        "ResidueId": "P00720_A_126",
+        "WildType3": "TRP",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": -5.74,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_153_CYS",
+        "ResidueId": "P00720_A_153",
+        "WildType3": "PHE",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -3.11,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_58_ALA",
+        "ResidueId": "P00720_A_58",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.2,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_33_ALA",
+        "ResidueId": "P00720_A_33",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.6,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_6_ILE",
+        "ResidueId": "P00720_A_6",
+        "WildType3": "MET",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -4.78,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_LEU",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -4.3,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_PRO",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -5.5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_ILE",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -4.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_PHE",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -4.2,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_TRP",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": -4.2,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_153_ALA",
+        "ResidueId": "P00720_A_153",
+        "WildType3": "PHE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_99_GLY",
+        "ResidueId": "P00720_A_99",
+        "WildType3": "LEU",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -7.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_PHE",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -5.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_PRO",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -3.03,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_146_ILE",
+        "ResidueId": "P00720_A_146",
+        "WildType3": "ALA",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -4.31,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_99_ALA",
+        "ResidueId": "P00720_A_99",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_58_TYR",
+        "ResidueId": "P00720_A_58",
+        "WildType3": "ILE",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -3.11,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_LEU",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -3.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_100_ALA",
+        "ResidueId": "P00720_A_100",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_106_LYS",
+        "ResidueId": "P00720_A_106",
+        "WildType3": "MET",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -3.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_LEU",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -3.2,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_SER",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -4.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_133_ALA",
+        "ResidueId": "P00720_A_133",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4.19,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_91_ALA",
+        "ResidueId": "P00720_A_91",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.1,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_133_ASP",
+        "ResidueId": "P00720_A_133",
+        "WildType3": "LEU",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -4.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_PHE",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -4.07,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_25_GLY",
+        "ResidueId": "P00720_A_25",
+        "WildType3": "TYR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -4.55,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_84_ALA",
+        "ResidueId": "P00720_A_84",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_GLY",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.2,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_146_VAL",
+        "ResidueId": "P00720_A_146",
+        "WildType3": "ALA",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -4.31,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_69_PRO",
+        "ResidueId": "P00720_A_69",
+        "WildType3": "GLN",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -3.3,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_27_MET",
+        "ResidueId": "P00720_A_27",
+        "WildType3": "ILE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -3.1,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_MET",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -3.2,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_102_LYS",
+        "ResidueId": "P00720_A_102",
+        "WildType3": "MET",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -8.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_ILE",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -3.1,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_TYR",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -4.5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_31_ASN",
+        "ResidueId": "P00720_A_31",
+        "WildType3": "HIS",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_104_ALA",
+        "ResidueId": "P00720_A_104",
+        "WildType3": "PHE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.1,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_PHE",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -3.6,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_160_THR",
+        "ResidueId": "P00720_A_160",
+        "WildType3": "ALA",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -4.55,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_66_ALA",
+        "ResidueId": "P00720_A_66",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_27_ALA",
+        "ResidueId": "P00720_A_27",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.1,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_TRP",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": -5.7,
+        "Severity": "High"
+      }
+    ],
+    "Val": [
+      {
+        "MutationId": "MUT_P00720_A_157_GLY",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_100_MET",
+        "ResidueId": "P00720_A_100",
+        "WildType3": "ILE",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_121_ALA",
+        "ResidueId": "P00720_A_121",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_118_ILE",
+        "ResidueId": "P00720_A_118",
+        "WildType3": "LEU",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_11_PHE",
+        "ResidueId": "P00720_A_11",
+        "WildType3": "GLU",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": 1.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_59_ALA",
+        "ResidueId": "P00720_A_59",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_20_ASN",
+        "ResidueId": "P00720_A_20",
+        "WildType3": "ASP",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": 1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_96_GLY",
+        "ResidueId": "P00720_A_96",
+        "WildType3": "ARG",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_117_ILE",
+        "ResidueId": "P00720_A_117",
+        "WildType3": "SER",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": 1.7,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_129_PHE",
+        "ResidueId": "P00720_A_129",
+        "WildType3": "ALA",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_50_ALA",
+        "ResidueId": "P00720_A_50",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_128_LYS",
+        "ResidueId": "P00720_A_128",
+        "WildType3": "GLU",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -1.16,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_146_THR",
+        "ResidueId": "P00720_A_146",
+        "WildType3": "ALA",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.87,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_GLU",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 1.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_3_TRP",
+        "ResidueId": "P00720_A_3",
+        "WildType3": "ILE",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_111_ALA",
+        "ResidueId": "P00720_A_111",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_130_GLY",
+        "ResidueId": "P00720_A_130",
+        "WildType3": "ALA",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_157_HIS",
+        "ResidueId": "P00720_A_157",
+        "WildType3": "THR",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -2.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_105_MET",
+        "ResidueId": "P00720_A_105",
+        "WildType3": "GLN",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_120_LYS",
+        "ResidueId": "P00720_A_120",
+        "WildType3": "MET",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -1.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_108_VAL",
+        "ResidueId": "P00720_A_108",
+        "WildType3": "GLU",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 1.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_150_VAL",
+        "ResidueId": "P00720_A_150",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00720_A_16_GLU",
+        "ResidueId": "P00720_A_16",
+        "WildType3": "LYS",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_GLY",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.53,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_80_LYS",
+        "ResidueId": "P00720_A_80",
+        "WildType3": "ARG",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -0.17,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_103_ILE",
+        "ResidueId": "P00720_A_103",
+        "WildType3": "VAL",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_54_VAL",
+        "ResidueId": "P00720_A_54",
+        "WildType3": "CYS",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.7,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_44_TYR",
+        "ResidueId": "P00720_A_44",
+        "WildType3": "SER",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": 0.19,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_39_ALA",
+        "ResidueId": "P00720_A_39",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.9,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_SER",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.05,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_109_ASN",
+        "ResidueId": "P00720_A_109",
+        "WildType3": "THR",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": 0,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_123_ALA",
+        "ResidueId": "P00720_A_123",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.22,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_38_ASN",
+        "ResidueId": "P00720_A_38",
+        "WildType3": "SER",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_102_LEU",
+        "ResidueId": "P00720_A_102",
+        "WildType3": "MET",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -0.74,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_124_GLY",
+        "ResidueId": "P00720_A_124",
+        "WildType3": "LYS",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": 0,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_149_ILE",
+        "ResidueId": "P00720_A_149",
+        "WildType3": "VAL",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_20_ALA",
+        "ResidueId": "P00720_A_20",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_93_SER",
+        "ResidueId": "P00720_A_93",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_ILE",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": 0.16,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_163_ASP",
+        "ResidueId": "P00720_A_163",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.21,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_MET",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "MET",
+        "ExperimentalDdg": 0.12,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_119_HIS",
+        "ResidueId": "P00720_A_119",
+        "WildType3": "ARG",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -0.29,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_68_ALA",
+        "ResidueId": "P00720_A_68",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.05,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_ASP",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.08,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_131_ALA",
+        "ResidueId": "P00720_A_131",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.27,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_133_PHE",
+        "ResidueId": "P00720_A_133",
+        "WildType3": "LEU",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_113_ALA",
+        "ResidueId": "P00720_A_113",
+        "WildType3": "GLY",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.1,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_123_GLU",
+        "ResidueId": "P00720_A_123",
+        "WildType3": "GLN",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.3,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_89_ALA",
+        "ResidueId": "P00720_A_89",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00720_A_118_ALA",
+        "ResidueId": "P00720_A_118",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_54_TYR",
+        "ResidueId": "P00720_A_54",
+        "WildType3": "CYS",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -5.02,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_THR",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -3.83,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_105_GLY",
+        "ResidueId": "P00720_A_105",
+        "WildType3": "GLN",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.11,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_156_ASP",
+        "ResidueId": "P00720_A_156",
+        "WildType3": "GLY",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -4.07,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_91_PRO",
+        "ResidueId": "P00720_A_91",
+        "WildType3": "LEU",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -8.13,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_74_PRO",
+        "ResidueId": "P00720_A_74",
+        "WildType3": "ALA",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -5.7,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_66_PRO",
+        "ResidueId": "P00720_A_66",
+        "WildType3": "LEU",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -12.23,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_98_VAL",
+        "ResidueId": "P00720_A_98",
+        "WildType3": "ALA",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -4.9,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_58_THR",
+        "ResidueId": "P00720_A_58",
+        "WildType3": "ILE",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -3.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00720_A_42_LYS",
+        "ResidueId": "P00720_A_42",
+        "WildType3": "ALA",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -3.7,
+        "Severity": "High"
+      }
+    ]
+  },
+  "ci2": {
+    "Train": [
+      {
+        "MutationId": "MUT_P01053_A_23_GLY",
+        "ResidueId": "P01053_A_23",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.16,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_28_ALA",
+        "ResidueId": "P01053_A_28",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.68,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_78_GLY",
+        "ResidueId": "P01053_A_78",
+        "WildType3": "ALA",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.88,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_37_GLY",
+        "ResidueId": "P01053_A_37",
+        "WildType3": "LYS",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.165,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_36_GLY",
+        "ResidueId": "P01053_A_36",
+        "WildType3": "ALA",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.25,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_71_ALA",
+        "ResidueId": "P01053_A_71",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.95,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_54_GLY",
+        "ResidueId": "P01053_A_54",
+        "WildType3": "VAL",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.43,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_40_VAL",
+        "ResidueId": "P01053_A_40",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.135,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_44_ALA",
+        "ResidueId": "P01053_A_44",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.25,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_52_ALA",
+        "ResidueId": "P01053_A_52",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.055,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_56_VAL",
+        "ResidueId": "P01053_A_56",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.165,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_76_ASP",
+        "ResidueId": "P01053_A_76",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -1.36,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_41_ALA",
+        "ResidueId": "P01053_A_41",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.27,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_70_LEU",
+        "ResidueId": "P01053_A_70",
+        "WildType3": "PHE",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -2.015,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_70_VAL",
+        "ResidueId": "P01053_A_70",
+        "WildType3": "PHE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_54_THR",
+        "ResidueId": "P01053_A_54",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -1.03,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_58_ALA",
+        "ResidueId": "P01053_A_58",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.07,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_43_ALA",
+        "ResidueId": "P01053_A_43",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.005,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_76_ALA",
+        "ResidueId": "P01053_A_76",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.025,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_38_GLY",
+        "ResidueId": "P01053_A_38",
+        "WildType3": "LYS",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.285,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_83_ALA",
+        "ResidueId": "P01053_A_83",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.45,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_50_THR",
+        "ResidueId": "P01053_A_50",
+        "WildType3": "ILE",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -1.34,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_68_ALA",
+        "ResidueId": "P01053_A_68",
+        "WildType3": "ARG",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.4,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_83_SER",
+        "ResidueId": "P01053_A_83",
+        "WildType3": "VAL",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -1.3,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_80_ALA",
+        "ResidueId": "P01053_A_80",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.51,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_32_GLY",
+        "ResidueId": "P01053_A_32",
+        "WildType3": "SER",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.43,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_59_ALA",
+        "ResidueId": "P01053_A_59",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.67,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_23_VAL",
+        "ResidueId": "P01053_A_23",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.32,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_35_ASP",
+        "ResidueId": "P01053_A_35",
+        "WildType3": "GLU",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.19,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_26_ALA",
+        "ResidueId": "P01053_A_26",
+        "WildType3": "PRO",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.915,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_53_ALA",
+        "ResidueId": "P01053_A_53",
+        "WildType3": "PRO",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.375,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_57_ALA",
+        "ResidueId": "P01053_A_57",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.655,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_35_ASN",
+        "ResidueId": "P01053_A_35",
+        "WildType3": "GLU",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.575,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_54_ALA",
+        "ResidueId": "P01053_A_54",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.64,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_77_VAL",
+        "ResidueId": "P01053_A_77",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 0.19,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_39_ALA",
+        "ResidueId": "P01053_A_39",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.275,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_52_VAL",
+        "ResidueId": "P01053_A_52",
+        "WildType3": "LEU",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.76,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_35_GLN",
+        "ResidueId": "P01053_A_35",
+        "WildType3": "GLU",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -0.575,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_22_MET",
+        "ResidueId": "P01053_A_22",
+        "WildType3": "LYS",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.7,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_73_ASN",
+        "ResidueId": "P01053_A_73",
+        "WildType3": "LYS",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.603,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_42_ALA",
+        "ResidueId": "P01053_A_42",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.28,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_50_VAL",
+        "ResidueId": "P01053_A_50",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 0.08,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_46_ALA",
+        "ResidueId": "P01053_A_46",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.55,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_27_ALA",
+        "ResidueId": "P01053_A_27",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.75,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_23_ALA",
+        "ResidueId": "P01053_A_23",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.85,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_34_ASN",
+        "ResidueId": "P01053_A_34",
+        "WildType3": "GLU",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.49,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_61_ALA",
+        "ResidueId": "P01053_A_61",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.91,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_59_ASP",
+        "ResidueId": "P01053_A_59",
+        "WildType3": "THR",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.03,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_56_ALA",
+        "ResidueId": "P01053_A_56",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.595,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_22_ALA",
+        "ResidueId": "P01053_A_22",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.795,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_32_ALA",
+        "ResidueId": "P01053_A_32",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.955,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_27_GLN",
+        "ResidueId": "P01053_A_27",
+        "WildType3": "GLU",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -0.595,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_56_SER",
+        "ResidueId": "P01053_A_56",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.5,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_38_ALA",
+        "ResidueId": "P01053_A_38",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.39,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_65_ALA",
+        "ResidueId": "P01053_A_65",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.91,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_67_ALA",
+        "ResidueId": "P01053_A_67",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4.925,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_50_GLY",
+        "ResidueId": "P01053_A_50",
+        "WildType3": "ILE",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.52,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_83_GLY",
+        "ResidueId": "P01053_A_83",
+        "WildType3": "VAL",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_77_ALA",
+        "ResidueId": "P01053_A_77",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4.23,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_69_ALA",
+        "ResidueId": "P01053_A_69",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.69,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_70_ALA",
+        "ResidueId": "P01053_A_70",
+        "WildType3": "PHE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.525,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_81_ALA",
+        "ResidueId": "P01053_A_81",
+        "WildType3": "PRO",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.42,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_72_ALA",
+        "ResidueId": "P01053_A_72",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.275,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_49_ALA",
+        "ResidueId": "P01053_A_49",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.89,
+        "Severity": "High"
+      }
+    ],
+    "Val": [
+      {
+        "MutationId": "MUT_P01053_A_49_VAL",
+        "ResidueId": "P01053_A_49",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.11,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_41_GLY",
+        "ResidueId": "P01053_A_41",
+        "WildType3": "LEU",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.735,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_45_ALA",
+        "ResidueId": "P01053_A_45",
+        "WildType3": "PRO",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.49,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_50_ALA",
+        "ResidueId": "P01053_A_50",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.12,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_83_THR",
+        "ResidueId": "P01053_A_83",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -1.15,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_40_LEU",
+        "ResidueId": "P01053_A_40",
+        "WildType3": "ILE",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -1.96,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P01053_A_52_ILE",
+        "ResidueId": "P01053_A_52",
+        "WildType3": "LEU",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.635,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_63_ALA",
+        "ResidueId": "P01053_A_63",
+        "WildType3": "ARG",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.8,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_80_THR",
+        "ResidueId": "P01053_A_80",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -0.38,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_34_ASP",
+        "ResidueId": "P01053_A_34",
+        "WildType3": "GLU",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.645,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_42_GLY",
+        "ResidueId": "P01053_A_42",
+        "WildType3": "GLN",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.76,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_37_ALA",
+        "ResidueId": "P01053_A_37",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.81,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_34_GLN",
+        "ResidueId": "P01053_A_34",
+        "WildType3": "GLU",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -0.345,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_31_ALA",
+        "ResidueId": "P01053_A_31",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.39,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P01053_A_44_GLY",
+        "ResidueId": "P01053_A_44",
+        "WildType3": "LYS",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.34,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P01053_A_80_GLY",
+        "ResidueId": "P01053_A_80",
+        "WildType3": "VAL",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.24,
+        "Severity": "High"
+      }
+    ]
+  },
+  "barnase": {
+    "Train": [
+      {
+        "MutationId": "MUT_P00648_A_116_LYS",
+        "ResidueId": "P00648_A_116",
+        "WildType3": "ARG",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -3.13,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_136_GLY",
+        "ResidueId": "P00648_A_136",
+        "WildType3": "LEU",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -7,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_99_VAL",
+        "ResidueId": "P00648_A_99",
+        "WildType3": "GLY",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -8.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_SER",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -3.05,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_64_GLY",
+        "ResidueId": "P00648_A_64",
+        "WildType3": "TYR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -4.4575,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_60_GLY",
+        "ResidueId": "P00648_A_60",
+        "WildType3": "TYR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -6.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_VAL",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "GLY",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -7.8,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_THR",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -3.285,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_61_ALA",
+        "ResidueId": "P00648_A_61",
+        "WildType3": "LEU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4.32,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_98_ALA",
+        "ResidueId": "P00648_A_98",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4.71,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_101_ALA",
+        "ResidueId": "P00648_A_101",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.075,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_122_ASN",
+        "ResidueId": "P00648_A_122",
+        "WildType3": "ASP",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -5,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_PRO",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -4.11,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_143_ALA",
+        "ResidueId": "P00648_A_143",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.17,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_54_LEU",
+        "ResidueId": "P00648_A_54",
+        "WildType3": "PHE",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -4.35,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_99_ALA",
+        "ResidueId": "P00648_A_99",
+        "WildType3": "GLY",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -5.3,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_135_ALA",
+        "ResidueId": "P00648_A_135",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4.246666667,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_60_ALA",
+        "ResidueId": "P00648_A_60",
+        "WildType3": "TYR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.5675,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_140_ASN",
+        "ResidueId": "P00648_A_140",
+        "WildType3": "ASP",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -4.11,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_ASP",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -3.295,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_143_GLY",
+        "ResidueId": "P00648_A_143",
+        "WildType3": "ILE",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -5.7,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_88_ALA",
+        "ResidueId": "P00648_A_88",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_53_PRO",
+        "ResidueId": "P00648_A_53",
+        "WildType3": "THR",
+        "MutantType3": "PRO",
+        "ExperimentalDdg": -3.19,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_102_GLY",
+        "ResidueId": "P00648_A_102",
+        "WildType3": "ILE",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -3.1,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_125_PHE",
+        "ResidueId": "P00648_A_125",
+        "WildType3": "TYR",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -1.3733333330000002,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_LYS",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -1.0525,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_105_ALA",
+        "ResidueId": "P00648_A_105",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.23,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_88_ASP",
+        "ResidueId": "P00648_A_88",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -2.53,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_124_ALA",
+        "ResidueId": "P00648_A_124",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.688333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_70_ALA",
+        "ResidueId": "P00648_A_70",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.316666667,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_116_MET",
+        "ResidueId": "P00648_A_116",
+        "WildType3": "ARG",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -2.86,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_ALA",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.91,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_136_THR",
+        "ResidueId": "P00648_A_136",
+        "WildType3": "LEU",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.78,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_ALA",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.0125,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_GLN",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -1.44,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_141_PHE",
+        "ResidueId": "P00648_A_141",
+        "WildType3": "TRP",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -1.06,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_53_GLY",
+        "ResidueId": "P00648_A_53",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.151666667,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_ASN",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -2.725,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_131_ALA",
+        "ResidueId": "P00648_A_131",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.018333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_73_ALA",
+        "ResidueId": "P00648_A_73",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.99125,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_83_ALA",
+        "ResidueId": "P00648_A_83",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.3666666669999998,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_62_GLY",
+        "ResidueId": "P00648_A_62",
+        "WildType3": "GLN",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.6,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_ARG",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": -2.61,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_ALA",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.53,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_141_TYR",
+        "ResidueId": "P00648_A_141",
+        "WildType3": "TRP",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -1.27,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_78_GLY",
+        "ResidueId": "P00648_A_78",
+        "WildType3": "GLN",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.04,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_TRP",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "GLU",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": -2.2,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_64_SER",
+        "ResidueId": "P00648_A_64",
+        "WildType3": "TYR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.285,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_64_ALA",
+        "ResidueId": "P00648_A_64",
+        "WildType3": "TYR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.19,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_TRP",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "TRP",
+        "ExperimentalDdg": -1.07,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_73_GLY",
+        "ResidueId": "P00648_A_73",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.418333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_53_HIS",
+        "ResidueId": "P00648_A_53",
+        "WildType3": "THR",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -2.65,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_GLY",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.58,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_SER",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.19,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_116_SER",
+        "ResidueId": "P00648_A_116",
+        "WildType3": "ARG",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -2.72,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_147_GLY",
+        "ResidueId": "P00648_A_147",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.8,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_72_VAL",
+        "ResidueId": "P00648_A_72",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.088333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_ALA",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.4,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_152_VAL",
+        "ResidueId": "P00648_A_152",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.223333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_76_SER",
+        "ResidueId": "P00648_A_76",
+        "WildType3": "GLU",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -1.215,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_VAL",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.31,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_53_ALA",
+        "ResidueId": "P00648_A_53",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.2425,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_GLY",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.34,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_92_THR",
+        "ResidueId": "P00648_A_92",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.356666667,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_119_GLY",
+        "ResidueId": "P00648_A_119",
+        "WildType3": "ARG",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -2.5,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_146_VAL",
+        "ResidueId": "P00648_A_146",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -2.9,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_83_THR",
+        "ResidueId": "P00648_A_83",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -1.125,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_102_ALA",
+        "ResidueId": "P00648_A_102",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.285,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_98_VAL",
+        "ResidueId": "P00648_A_98",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.705,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_52_ALA",
+        "ResidueId": "P00648_A_52",
+        "WildType3": "ASN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.885,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_63_GLY",
+        "ResidueId": "P00648_A_63",
+        "WildType3": "THR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.48,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_GLN",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -1.87,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_ARG",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": -1.085,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_ASN",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -1.74,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_GLN",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "THR",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -1.72,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_51_ALA",
+        "ResidueId": "P00648_A_51",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.135,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_156_ALA",
+        "ResidueId": "P00648_A_156",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.7683333330000002,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_LYS",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -2.91,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_63_SER",
+        "ResidueId": "P00648_A_63",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -1.695,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_101_ASN",
+        "ResidueId": "P00648_A_101",
+        "WildType3": "ASP",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -2.59,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_135_VAL",
+        "ResidueId": "P00648_A_135",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -1.445,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_55_GLY",
+        "ResidueId": "P00648_A_55",
+        "WildType3": "ASP",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.235,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_57_THR",
+        "ResidueId": "P00648_A_57",
+        "WildType3": "VAL",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.435,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_PHE",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "GLU",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -2.1,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_63_ARG",
+        "ResidueId": "P00648_A_63",
+        "WildType3": "THR",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": 0.576666667,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_LEU",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_GLU",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.235,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_104_ALA",
+        "ResidueId": "P00648_A_104",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.15,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_ASP",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.555,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_71_PHE",
+        "ResidueId": "P00648_A_71",
+        "WildType3": "TYR",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": 0.045,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_TYR",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "TYR",
+        "ExperimentalDdg": -0.75,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_141_LEU",
+        "ResidueId": "P00648_A_141",
+        "WildType3": "TRP",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -0.64,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_GLY",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.8425,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_76_GLN",
+        "ResidueId": "P00648_A_76",
+        "WildType3": "GLU",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_59_SER",
+        "ResidueId": "P00648_A_59",
+        "WildType3": "ASP",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.775,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_SER",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.22,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_59_GLY",
+        "ResidueId": "P00648_A_59",
+        "WildType3": "ASP",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.9725,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_149_ALA",
+        "ResidueId": "P00648_A_149",
+        "WildType3": "HIS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.24,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_GLU",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.27,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_106_ALA",
+        "ResidueId": "P00648_A_106",
+        "WildType3": "ARG",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.64,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_63_ALA",
+        "ResidueId": "P00648_A_63",
+        "WildType3": "THR",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.385,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_HIS",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -0.75,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_ASN",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -0.515,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_151_ALA",
+        "ResidueId": "P00648_A_151",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.135,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_105_ASP",
+        "ResidueId": "P00648_A_105",
+        "WildType3": "ASN",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.4025,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_PHE",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -0.565,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_136_VAL",
+        "ResidueId": "P00648_A_136",
+        "WildType3": "LEU",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.241666667,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_78_ALA",
+        "ResidueId": "P00648_A_78",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.0425,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_SER",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "THR",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.56,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_74_ALA",
+        "ResidueId": "P00648_A_74",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.445,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_55_ALA",
+        "ResidueId": "P00648_A_55",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.99,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_157_ALA",
+        "ResidueId": "P00648_A_157",
+        "WildType3": "ARG",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.46,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_SER",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.28,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_132_ALA",
+        "ResidueId": "P00648_A_132",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.08,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_112_SER",
+        "ResidueId": "P00648_A_112",
+        "WildType3": "GLY",
+        "MutantType3": "SER",
+        "ExperimentalDdg": 0.74,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_ILE",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": -0.74,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_126_VAL",
+        "ResidueId": "P00648_A_126",
+        "WildType3": "THR",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": 0.24,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_155_ARG",
+        "ResidueId": "P00648_A_155",
+        "WildType3": "LYS",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": 0.84,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_73_ASP",
+        "ResidueId": "P00648_A_73",
+        "WildType3": "THR",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -0.04,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_62_ALA",
+        "ResidueId": "P00648_A_62",
+        "WildType3": "GLN",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.2,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_143_VAL",
+        "ResidueId": "P00648_A_143",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.954,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_ARG",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": -0.15,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_69_MET",
+        "ResidueId": "P00648_A_69",
+        "WildType3": "ASP",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.27,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_GLU",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "THR",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.05,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_GLY",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.795,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_THR",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -0.645,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_91_GLU",
+        "ResidueId": "P00648_A_91",
+        "WildType3": "ASP",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": -0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_156_VAL",
+        "ResidueId": "P00648_A_156",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.795,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_150_PHE",
+        "ResidueId": "P00648_A_150",
+        "WildType3": "TYR",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -0.045,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_MET",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "MET",
+        "ExperimentalDdg": -0.19,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_75_ALA",
+        "ResidueId": "P00648_A_75",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.505,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_66_ARG",
+        "ResidueId": "P00648_A_66",
+        "WildType3": "LYS",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": 0.54,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_78_SER",
+        "ResidueId": "P00648_A_78",
+        "WildType3": "GLN",
+        "MutantType3": "SER",
+        "ExperimentalDdg": 0,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_59_ALA",
+        "ResidueId": "P00648_A_59",
+        "WildType3": "ASP",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -0.34,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_75_GLY",
+        "ResidueId": "P00648_A_75",
+        "WildType3": "SER",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.475,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_55_SER",
+        "ResidueId": "P00648_A_55",
+        "WildType3": "ASP",
+        "MutantType3": "SER",
+        "ExperimentalDdg": -0.835,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_60_PHE",
+        "ResidueId": "P00648_A_60",
+        "WildType3": "TYR",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -0.52,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_51_VAL",
+        "ResidueId": "P00648_A_51",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.681666667,
+        "Severity": "Low"
+      }
+    ],
+    "Val": [
+      {
+        "MutationId": "MUT_P00648_A_142_GLY",
+        "ResidueId": "P00648_A_142",
+        "WildType3": "LEU",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -4.7,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_57_ALA",
+        "ResidueId": "P00648_A_57",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.488333333,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_72_ALA",
+        "ResidueId": "P00648_A_72",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -3.59,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_130_LYS",
+        "ResidueId": "P00648_A_130",
+        "WildType3": "ARG",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -4.13,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_135_GLY",
+        "ResidueId": "P00648_A_135",
+        "WildType3": "ILE",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -7.4,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_144_GLY",
+        "ResidueId": "P00648_A_144",
+        "WildType3": "TYR",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -6.6,
+        "Severity": "High"
+      },
+      {
+        "MutationId": "MUT_P00648_A_80_GLN",
+        "ResidueId": "P00648_A_80",
+        "WildType3": "LEU",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -1.3275,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_130_GLN",
+        "ResidueId": "P00648_A_130",
+        "WildType3": "ARG",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -1.58,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_76_ALA",
+        "ResidueId": "P00648_A_76",
+        "WildType3": "GLU",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.2925,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_CYS",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "CYS",
+        "ExperimentalDdg": -1.425,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_81_HIS",
+        "ResidueId": "P00648_A_81",
+        "WildType3": "GLY",
+        "MutantType3": "HIS",
+        "ExperimentalDdg": -2.475,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_ASN",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -1.27,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_92_ALA",
+        "ResidueId": "P00648_A_92",
+        "WildType3": "VAL",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.678333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_76_GLY",
+        "ResidueId": "P00648_A_76",
+        "WildType3": "GLU",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -1.8975,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_65_ASP",
+        "ResidueId": "P00648_A_65",
+        "WildType3": "HIS",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": -2.38,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_123_ALA",
+        "ResidueId": "P00648_A_123",
+        "WildType3": "ILE",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -1.66,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_123_THR",
+        "ResidueId": "P00648_A_123",
+        "WildType3": "ILE",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -2.69,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_120_ASN",
+        "ResidueId": "P00648_A_120",
+        "WildType3": "THR",
+        "MutantType3": "ASN",
+        "ExperimentalDdg": -1.29,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_138_ALA",
+        "ResidueId": "P00648_A_138",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.008333333,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_139_ALA",
+        "ResidueId": "P00648_A_139",
+        "WildType3": "SER",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": -2.85,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_62_ILE",
+        "ResidueId": "P00648_A_62",
+        "WildType3": "GLN",
+        "MutantType3": "ILE",
+        "ExperimentalDdg": 1.19,
+        "Severity": "Medium"
+      },
+      {
+        "MutationId": "MUT_P00648_A_102_VAL",
+        "ResidueId": "P00648_A_102",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.358333333,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_123_VAL",
+        "ResidueId": "P00648_A_123",
+        "WildType3": "ILE",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.8633333329999999,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_113_ALA",
+        "ResidueId": "P00648_A_113",
+        "WildType3": "LYS",
+        "MutantType3": "ALA",
+        "ExperimentalDdg": 0.59,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_100_ASP",
+        "ResidueId": "P00648_A_100",
+        "WildType3": "THR",
+        "MutantType3": "ASP",
+        "ExperimentalDdg": 0.11,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_102_THR",
+        "ResidueId": "P00648_A_102",
+        "WildType3": "ILE",
+        "MutantType3": "THR",
+        "ExperimentalDdg": -0.96,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_109_ARG",
+        "ResidueId": "P00648_A_109",
+        "WildType3": "LYS",
+        "MutantType3": "ARG",
+        "ExperimentalDdg": -0.43,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_GLN",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "GLN",
+        "ExperimentalDdg": -0.425,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_75_GLU",
+        "ResidueId": "P00648_A_75",
+        "WildType3": "SER",
+        "MutantType3": "GLU",
+        "ExperimentalDdg": 0.505,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_135_LEU",
+        "ResidueId": "P00648_A_135",
+        "WildType3": "ILE",
+        "MutantType3": "LEU",
+        "ExperimentalDdg": -0.16,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_74_GLY",
+        "ResidueId": "P00648_A_74",
+        "WildType3": "LYS",
+        "MutantType3": "GLY",
+        "ExperimentalDdg": -0.2825,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_64_PHE",
+        "ResidueId": "P00648_A_64",
+        "WildType3": "TYR",
+        "MutantType3": "PHE",
+        "ExperimentalDdg": -0.44,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_LYS",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "LYS",
+        "ExperimentalDdg": -0.15,
+        "Severity": "Low"
+      },
+      {
+        "MutationId": "MUT_P00648_A_79_VAL",
+        "ResidueId": "P00648_A_79",
+        "WildType3": "ALA",
+        "MutantType3": "VAL",
+        "ExperimentalDdg": -0.62,
+        "Severity": "Low"
+      }
+    ]
+  }
+}
