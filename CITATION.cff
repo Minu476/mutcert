@@ -1,25 +1,74 @@
 cff-version: 1.2.0
-message: "If you use MutCert in your research, please cite it as below."
-title: "MutCert: Transparent, Parameter-Free Protein Stability Change Estimation"
-version: 1.0.0
-date-released: 2026-06-02
+message: "If you use this software, please cite it using these metadata."
+title: "MutCert: a transparent, parameter-free graph estimator for protein stability changes (ΔΔG)"
+abstract: >-
+  MutCert predicts protein stability changes (ΔΔG) for single-point mutations by
+  loading a protein structure as a residue contact graph and propagating
+  Miyazawa-Jernigan pairwise contact energies outward from the mutation site via
+  breadth-first search with distance decay. It uses zero learned parameters and
+  zero force-field hand-tuning. Its distinguishing contribution is auditability:
+  a running convergence interval and a complete, inspectable per-step causal
+  trace. The convergence certificate it emits attests to numerical convergence of
+  the energy sum, not to the accuracy of the prediction.
+type: software
 authors:
-  - family-names: Towfigh
-    given-names: Nasser
-license: MIT
+  - given-names: "Nasser"
+    family-names: "Towfigh"
+    affiliation: "Rich Learning Inc."
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # Add if available
 repository-code: "https://github.com/nassertowfigh/mutcert"
+url: "https://github.com/nassertowfigh/mutcert"
+version: "1.0.0"
+date-released: "2026-06-02"
+license: MIT
 keywords:
   - protein stability
-  - mutation effect prediction
-  - glass-box machine learning
-  - Miyazawa-Jernigan potential
+  - delta-delta-G
+  - point mutation
+  - Miyazawa-Jernigan
+  - contact graph
+  - interpretable
+  - glass-box
+  - Neo4j
   - convergence certification
   - BFS energy propagation
-abstract: >
-  MutCert is a transparent, parameter-free BFS energy estimator for
-  protein stability change (ΔΔG) prediction. It achieves Spearman |ρ|
-  0.449 on T4 lysozyme (comparable to DDGun-seq on the same S2648 val
-  split) using zero force-field tuning. Its distinguishing contribution
-  is auditability: every per-step energy attribution is recorded via
-  glass-box BFS trace, enabling full inspection of how each residue
-  contributes to the final prediction.
+references:
+  - type: article
+    authors:
+      - family-names: "Potapov"
+        given-names: "Vladimir"
+      - family-names: "Cohen"
+        given-names: "Mati"
+      - family-names: "Schreiber"
+        given-names: "Gideon"
+    title: "Assessing computational methods for predicting protein stability upon mutation: good on average but not in the details"
+    year: 2009
+    journal: "Protein Engineering, Design & Selection"
+    volume: "22"
+    issue: "9"
+    start: 553
+    end: 560
+    doi: "10.1093/protein/gzp030"
+  - type: article
+    authors:
+      - family-names: "Miyazawa"
+        given-names: "Sanzo"
+      - family-names: "Jernigan"
+        given-names: "Robert L."
+    title: "Residue-residue potentials with a favorable contact pair term and an unfavorable high packing density term, for simulation and threading"
+    year: 1996
+    journal: "Journal of Molecular Biology"
+    volume: "256"
+    issue: "3"
+    start: 623
+    end: 644
+    doi: "10.1006/jmbi.1996.0114"
+  - type: software
+    authors:
+      - family-names: "Montanucci"
+        given-names: "Ludovica"
+      - family-names: "Fariselli"
+        given-names: "Piero"
+    title: "DDGun: an untrained method for the prediction of protein stability changes upon single and multiple point variations"
+    year: 2019
+    doi: "10.1186/s12859-019-3142-9"
