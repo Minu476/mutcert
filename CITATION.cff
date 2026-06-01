@@ -16,9 +16,10 @@ authors:
     family-names: "Towfigh"
     affiliation: "Rich Learning Inc."
     # orcid: "https://orcid.org/0000-0000-0000-0000"  # Add if available
-repository-code: "https://github.com/nassertowfigh/mutcert"
-url: "https://github.com/nassertowfigh/mutcert"
-version: "1.0.0"
+repository-code: "https://github.com/Minu476/mutcert"
+url: "https://github.com/Minu476/mutcert"
+doi: "10.5281/zenodo.20499591"
+version: "1.0.1"
 date-released: "2026-06-02"
 license: MIT
 keywords:

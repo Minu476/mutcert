@@ -1,5 +1,7 @@
 # MutCert
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20499591.svg)](https://doi.org/10.5281/zenodo.20499591)
+
 **A transparent, parameter-free graph estimator for protein stability changes (ΔΔG) of single-point mutations.**
 
 MutCert loads a protein structure as a residue **contact graph**, and when a residue is mutated it walks the graph outward from the mutation site, accumulating Miyazawa–Jernigan pairwise contact energies hop-by-hop with distance decay. Every step is recorded, so the prediction is fully auditable: you can see exactly which neighbouring residue contributed which fraction of a kcal/mol, and in what order.
