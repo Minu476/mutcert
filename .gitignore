@@ -7,6 +7,11 @@ data/*.html
 data/*.log
 data/output/
 
+# Third-party datasets — users must download (see MANUAL_DOWNLOAD.txt)
+data/**/*.csv
+# Keep our generated split file
+!data/s2648_split.json
+
 # Environment — never commit real credentials
 .env
 

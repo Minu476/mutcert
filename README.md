@@ -8,15 +8,45 @@ A transparent, parameter-free protein stability change (ΔΔG) estimator built o
 
 ## Canonical Validation Results (Phase 9-E, S2648 benchmark)
 
-| Family | Train n | Val n | Spearman ρ | Pearson r |
-|--------|:-------:|:-----:|:----------:|:---------:|
-| T4 lysozyme | 97 | 60 | **−0.449** | −0.450 |
-| Barnase | 46 | 31 | **−0.441** | −0.702 |
-| CI2 | 27 | 16 | −0.194 | −0.368 |
+| Family | Train n | Val n | Spearman \|ρ\| | Pearson \|r\| |
+|--------|:-------:|:-----:|:------------:|:-----------:|
+| T4 lysozyme | 97 | 60 | **0.449** | 0.450 |
+| Barnase | 46 | 31 | **0.441** | 0.702 |
+| CI2 | 27 | 16 | 0.194† | 0.368† |
 
-Run-registry: 942 total runs, 932 certified (98.9% convergence rate).
+†CI2 (n=16) is underpowered — 95% CI for ρ spans roughly [−0.3, +0.6], indistinguishable from zero.
 
-> **Note on L121A**: The glass-box trace for `MUT_P00720_A_121_ALA` shows cert ISSUED (width 0.49 kcal/mol), but the experimental ΔΔG is ~+22.8 kcal/mol — ~25 kcal/mol outside the interval. The certificate tracks convergence of the MJ sum, not accuracy. See `tribunal/phase11-cert-definition.md §6`.
+> **Primary metric: Spearman ρ** — less sensitive to outliers than Pearson (e.g., barnase |r|=0.702 vs |ρ|=0.441). Sign convention: MutCert uses negative correlation (larger MJ sum → more stable), opposite to S2648 experimental convention.
+
+**Run-registry:** 942 total mutation runs across all 3 families (T4/CI2/barnase train+val, plus exploratory runs), 932 certificates issued (98.9% convergence rate). This covers the full dataset, not just the 107 val mutations.
+
+---
+
+## DDGun Baseline Comparison (Same S2648 Val Split)
+
+| Family | n | DDGun-seq \|ρ\| | MutCert \|ρ\| | Verdict |
+|--------|:-:|:-------------:|:------------:|:-------:|
+| T4 lysozyme | 60 | 0.426 | **0.449** | Tied |
+| CI2 | 16 | **0.635** | 0.194 | DDGun better |
+| Barnase | 31 | **0.731** | 0.441 | DDGun better |
+
+DDGun-seq outperforms MutCert on 2 of 3 families. DDGun benefits from evolutionary MSA signal (1180–4589 sequences per family via ColabFold/MMseqs2); MutCert uses only local MJ contact potentials with no sequence database dependency.
+
+**MutCert's differentiator is auditability, not raw accuracy:** every per-step energy attribution is recorded and inspectable via glass-box trace. No other method (FoldX, DDGun, ESM, Rosetta) provides ordered, hop-by-hop energy decomposition.
+
+Script: `scripts/ddgun_baseline.py` reproduces these numbers (requires `ddgun` 0.0.2, Python 3.13+, BioPython 1.87+).
+
+---
+
+## Known Limitation: Precision ≠ Accuracy
+
+The L121A trace (`MUT_P00720_A_121_ALA`) is the canonical example:
+- Certificate **ISSUED** (width 0.49 kcal/mol ≤ 2.0)
+- MutCert interval: [−2.47, −1.98] kcal/mol
+- Experimental ΔΔG: **+22.8 kcal/mol** (strongly destabilizing)
+- **Interval is ~25 kcal/mol away from truth**
+
+The MJ potential assigns favorable contact-energy change for this buried hydrophobic→alanine mutation; the convergence machinery faithfully narrows onto that wrong answer. **The certificate guarantees convergence of the MJ sum (precision), not accuracy of the prediction.** See `tribunal/phase11-cert-definition.md §6` for full discussion.
 
 ---
 
@@ -130,7 +160,7 @@ A certificate is issued when:
 - **C2**: convergence flag set by `ConvergenceSupervisor`
 - **C3**: ≥ 5 BFS steps completed
 
-The certificate records **precision** (convergence of the MJ sum), not accuracy. See `tribunal/phase11-cert-definition.md` for full specification including the L121A limitation.
+**Critical:** The interval [lo, hi] bounds the *convergence of the MJ sum*, NOT the *error of the prediction*. It is not a confidence interval or calibrated uncertainty quantification. The certificate records precision (the MJ sum has converged), not accuracy (the MJ sum may be far from experimental ΔΔG). See L121A example above and `tribunal/phase11-cert-definition.md` for full discussion.
 
 ---
 

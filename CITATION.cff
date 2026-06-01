@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use MutCert in your research, please cite it as below."
+title: "MutCert: Transparent, Parameter-Free Protein Stability Change Estimation"
+version: 1.0.0
+date-released: 2026-06-02
+authors:
+  - family-names: Towfigh
+    given-names: Nasser
+license: MIT
+repository-code: "https://github.com/nassertowfigh/mutcert"
+keywords:
+  - protein stability
+  - mutation effect prediction
+  - glass-box machine learning
+  - Miyazawa-Jernigan potential
+  - convergence certification
+  - BFS energy propagation
+abstract: >
+  MutCert is a transparent, parameter-free BFS energy estimator for
+  protein stability change (ΔΔG) prediction. It achieves Spearman |ρ|
+  0.449 on T4 lysozyme (comparable to DDGun-seq on the same S2648 val
+  split) using zero force-field tuning. Its distinguishing contribution
+  is auditability: every per-step energy attribution is recorded via
+  glass-box BFS trace, enabling full inspection of how each residue
+  contributes to the final prediction.

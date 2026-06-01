@@ -18,24 +18,28 @@ The claim is *not* "certified measurement protocol" — that framing puts the ce
 
 ## 2. Correlation Performance
 
-The numbers below are from the Phase 9-E MutCert run on the S2648 split (T4 lysozyme train n=97/val n=60, CI2 train n=27/val n=16, barnase train n=46/val n=31 after WT gating). Competitor figures are from published literature on various S2648 or S669 subsets and **cannot be directly compared** — they are shown for rough orientation only, not as evidence that MutCert matches or exceeds them. To make a valid comparison, all methods would need to run on the same split.
+MutCert Phase 9-E split: T4 lysozyme (train n=97 / val n=60), CI2 (train n=27 / val n=16), barnase (train n=46 / val n=31 after WT gate). **DDGun-seq was run on the same val split** (June 2026) using evolutionary profiles from ColabFold/MMseqs2 (1180–4589 sequences per protein; profiles cached in `data/ddgun_profiles/`). FoldX/Rosetta/ESM/MutPred2 figures are from published literature on *different* splits — shown for rough orientation only.
 
-| Method | Family | Spearman ρ | Pearson r | n (val) | Notes |
-|--------|--------|:----------:|:---------:|:-------:|-------|
-| **MutCert v1** | T4 lysozyme | **−0.449** | −0.450 | 60 | This split |
-| **MutCert v1** | Barnase | **−0.441** | −0.702 | 31 | This split, after WT gate |
-| **MutCert v1** | CI2 | −0.194 | −0.368 | 16 | This split, n too small for reliable estimate |
-| FoldX 5 | T4 lysozyme | ~−0.45† | ~−0.60† | ~100 | Different split |
-| Rosetta ddg_mon | T4 lysozyme | ~−0.43† | ~−0.58† | ~100 | Different split |
-| DDGun | T4 lysozyme | ~−0.40–0.44† | — | — | Parameter-free baseline; **must be run on same split** |
-| ESM-1v | Multi-protein | ~−0.41† | ~−0.46† | ~500 | Different proteins, different split |
-| MutPred2 | Multi-protein | ~−0.38† | ~−0.42† | ~500 | Different proteins, different split |
+**Sign convention**: S2648 experimental ΔΔG uses positive = stabilising, negative = destabilising. MutCert and DDGun use *opposite* sign conventions relative to each other; we therefore compare |r| and |ρ| for fairness. MutCert correlations are negative (larger MJ sum → more stable), DDGun positive (larger DDGun score → more destabilising).
 
-†Literature figures from Shu et al. 2020, Frenz et al. 2023, Meier et al. 2021 — not verified independently. Values may differ on this split.
+| Method | Family | \|Spearman ρ\| | \|Pearson r\| | n (val) | Notes |
+|--------|--------|:------------:|:-----------:|:-------:|-------|
+| **MutCert v1** | T4 lysozyme | **0.449** | 0.450 | 60 | This split, ρ = −0.449 |
+| **DDGun-seq** | T4 lysozyme | 0.426 | 0.458 | 60 | **Same split** ✓ |
+| **MutCert v1** | CI2 | 0.194 | 0.368 | 16 | This split, n small |
+| **DDGun-seq** | CI2 | **0.635** | **0.591** | 16 | **Same split** ✓ |
+| **MutCert v1** | Barnase | 0.441 | 0.702 | 31 | This split, after WT gate |
+| **DDGun-seq** | Barnase | **0.731** | **0.826** | 31 | **Same split** ✓, WT-gated |
+| FoldX 5 | T4 lysozyme | ~0.45† | ~0.60† | ~100 | Different split |
+| Rosetta ddg_mon | T4 lysozyme | ~0.43† | ~0.58† | ~100 | Different split |
+| ESM-1v | Multi-protein | ~0.41† | ~0.46† | ~500 | Different proteins/split |
+| MutPred2 | Multi-protein | ~0.38† | ~0.42† | ~500 | Different proteins/split |
 
-> **Primary metric: Spearman ρ** — Pearson is inflated by outliers (barnase Pearson −0.702 vs Spearman −0.441 illustrates this; see `tribunal/opus-review-phase9d.md`). Always report both in any table.
+†Literature figures from Shu et al. 2020, Frenz et al. 2023, Meier et al. 2021 — not verified independently.
 
-> **DDGun is the most important missing baseline**: it is also parameter-free, sequence-and-structure-based, and antisymmetric. Its absence makes the "zero parameters" argument look weaker. It must be run on the same split before any submission.
+> **Honest summary**: DDGun-seq outperforms MutCert on CI2 and barnase. On T4 lysozyme the two methods are essentially tied (MutCert |ρ| = 0.449 vs DDGun |ρ| = 0.426). DDGun's advantage on the smaller families reflects its evolutionary MSA signal; MutCert uses only local MJ contacts with no sequence-database lookup.
+
+> **Primary metric: Spearman ρ** — Pearson is inflated by outliers (MutCert barnase: |r|=0.702 vs |ρ|=0.441). Always report both.
 
 ---
 
@@ -78,8 +82,13 @@ The honest way to present this: **Spearman ρ ~0.45 means the ranking is moderat
 ### 5.1 DDGun (Montanucci et al., 2019; Pancotti et al., 2022)
 
 **Approach**: Sequence- and structure-based, antisymmetric ΔΔG prediction, no machine learning, no hand-tuned force field.  
-**Why it matters most**: DDGun is the most direct comparator for MutCert. Both are parameter-free, both use structural information, both avoid learning. The paper cannot claim "zero parameters" as a distinguishing feature without running DDGun on the same split.  
-**Action item**: run DDGun on the same S2648 T4/barnase val split before submission.
+**Why it matters most**: DDGun is the most direct comparator for MutCert. Both are parameter-free, both use structural information, both avoid learning.
+
+**Results on same split (June 2026)**: DDGun-seq outperforms MutCert on CI2 (|ρ| 0.635 vs 0.194) and barnase (|ρ| 0.731 vs 0.441), and is essentially tied on T4 lysozyme (|ρ| 0.426 vs 0.449). DDGun's advantage comes from its evolutionary MSA profile (up to 4589 homologs); MutCert uses only local MJ contact potentials.
+
+**MutCert's remaining differentiators vs DDGun**: (1) full glass-box BFS trace — DDGun is a black box; (2) running interval [lo, hi] with monotone-narrowing certificate; (3) no sequence database dependency at inference time; (4) every per-step energy attribution is stored and auditable.
+
+**Script**: `scripts/ddgun_baseline.py` reproduces these numbers. Profiles cached in `data/ddgun_profiles/`. Results in `data/ddgun_baseline_results.json`.
 
 ### 5.2 FoldX 5 (Schymkowitz et al., 2005)
 
@@ -113,15 +122,16 @@ The honest way to present this: **Spearman ρ ~0.45 means the ranking is moderat
 
 The story that survives review is narrower than "certified measurement protocol" — but it is real:
 
-> MutCert is a **transparent, parameter-free BFS energy estimator** built on the Miyazawa–Jernigan contact potential with a reference-state correction. It achieves Spearman ρ ~0.44–0.45 on T4 lysozyme and barnase against the S2648 benchmark — in the same neighbourhood as FoldX and Rosetta — using zero force-field hand-tuning. Its distinguishing feature is that every step of the energy calculation is recorded and auditable: the glass-box trace shows which residues contributed, in what order, at what hop distance, and by how much.
+> MutCert is a **transparent, parameter-free BFS energy estimator** built on the Miyazawa–Jernigan contact potential with a reference-state correction. It achieves Spearman |ρ| 0.449 on T4 lysozyme and 0.441 on barnase — **competitive with DDGun-seq on T4 lysozyme** (DDGun |ρ| = 0.426), and weaker than DDGun on CI2 (0.194 vs 0.635) and barnase (0.441 vs 0.731). DDGun benefits from evolutionary MSA signal; MutCert uses only local contact potentials. MutCert's distinguishing contribution is not accuracy but **auditability**: every step of the energy calculation is recorded \u2014 which residues contributed, in what order, at what hop distance, and by how much.
 
-> The convergence-tracking heuristic (the ratchet interval) is a useful diagnostic that makes the convergence behaviour of the BFS sum visible. It certifies precision, not accuracy. Improving the potential function (Phase 2) is the path to accuracy.
+> The convergence-tracking heuristic (the ratchet interval) is a useful diagnostic that makes the convergence behaviour of the BFS sum visible. It certifies precision, not accuracy. Improving the underlying potential (Phase 2) is the path to accuracy.
 
 This claim:
-- Is true
-- Is differentiable from FoldX (attribution) and DDGun (trace)
+- Is honest (DDGun beats MutCert on 2 of 3 families)
+- Is differentiable from all black-box methods (FoldX, DDGun, ESM) on auditability
 - Does not require defending L121A as a "certified" result
 - Sets up Phase 2 improvements naturally
+- Positions MutCert as a **transparency tool**, not a performance tool
 
 ---
 
